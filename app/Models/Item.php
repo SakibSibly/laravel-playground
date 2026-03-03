@@ -12,7 +12,8 @@ class Item extends Model
     protected $fillable = [
         'name',
         'description',
-        'price'
+        'price',
+        'is_available',
     ];
 
     public function uniqueIds(): array
